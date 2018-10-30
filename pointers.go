@@ -28,7 +28,9 @@ func main() {
 
     // 通过 `&i` 语法来取得 `i` 的内存地址，例如一个变量
     // `i` 的指针。
+
     zeroptr(&i)
+
     fmt.Println("zeroptr:", i)
 
     // 指针也是可以被打印的。
